@@ -1,0 +1,45 @@
+.todo-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .todo-list.open {
+    display: block;
+    max-height: 200px; /* Set the desired maximum height for the dropdown */
+    overflow: none;
+  }
+  
+  .todo-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    border: 1px solid #f3f0eb;
+    border-radius: 4px;
+  }
+  
+  .todo-list li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .todo-list li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .todo-list .plus-icon {
+    margin-right: 2px;
+    fill: #f2efeb;
+  }
+  
+  .todo-list .plus-icon svg {
+    fill: #f2efeb;
+    width: 16px;
+    height: 16px;
+  }
+  

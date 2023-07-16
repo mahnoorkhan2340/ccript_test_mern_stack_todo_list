@@ -1,0 +1,192 @@
+
+.todo-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent;
+  text-align: center;
+  border: none;
+}
+
+.todo-form h2 {
+  margin-bottom: 20px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  padding-right: 40px;
+}
+
+.plus-button {
+  position: absolute;
+  right: 14px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: #7c6f5a;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.edit-button {
+  position: absolute;
+  margin-top: 0%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: #7c6f5a;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.dropdown-container {
+  position: relative;
+  margin-top: 20px;
+}
+
+.dropdown-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #7c6f5a;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.list-icon {
+  display: flex;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.dropdown-content .todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-plus-icons {
+  display: flex;
+  gap: 5px;
+}
+
+.todo-list {
+  max-height: 200px; /* Set a maximum height to limit the visible area */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+
+.todo-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  border: 1px solid #7c6f5a;
+  border-radius: 4px;
+  max-height: 200px; /* Set a maximum height to limit the visible area */
+  overflow-y: auto; 
+  
+}
+
+.todo-item:hover {
+  background-color: #f1f1f1;
+}
+
+.todo-list li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+
+.check-circle-icon {
+  fill: #7c6f5a;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 10%;
+  left: 10px;
+
+}
+
+.dot-icon {
+  fill: #7c6f5a;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 10%;
+  right: 10px;
+ 
+}
+
+.task-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 40px;
+  flex: 1;
+}
+
+.task-name {
+  margin-top: 30px;
+  margin-right: 46px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+
+.delete-button {
+  width: 100%;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
